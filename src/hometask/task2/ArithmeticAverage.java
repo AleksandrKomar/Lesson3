@@ -11,7 +11,7 @@ public class ArithmeticAverage {
 
         //для вычисления среднего арифметического лучше использовать
         //тип float или double. В зависимости от диапазона числел
-        float average2 =  (float) (a + b + c)/3;//добавил кастинг - так как выводило 8.0 что не есть верно
+        float average2 =  (float) (a + b + c)/3;//добавил кастинг - так как выводило 8.0, что не есть верно
         double average3 = (double) (a + b + c)/3;
 
         System.out.println(average2);
